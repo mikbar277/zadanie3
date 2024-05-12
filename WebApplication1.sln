@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationHorizontal", "WebApplicationHorizontal\WebApplicationHorizontal.csproj", "{E90F4AF3-37E9-4C75-BDA1-E7DE29003F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HorizontalSlice", "HorizontalSlice", "{55BFD22C-1317-4EBF-91DB-E1A010FEEC7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E90F4AF3-37E9-4C75-BDA1-E7DE29003F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90F4AF3-37E9-4C75-BDA1-E7DE29003F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90F4AF3-37E9-4C75-BDA1-E7DE29003F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90F4AF3-37E9-4C75-BDA1-E7DE29003F53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E90F4AF3-37E9-4C75-BDA1-E7DE29003F53} = {55BFD22C-1317-4EBF-91DB-E1A010FEEC7D}
+	EndGlobalSection
+EndGlobal
