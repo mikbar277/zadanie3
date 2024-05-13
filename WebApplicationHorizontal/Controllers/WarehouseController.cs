@@ -6,11 +6,11 @@ namespace WebApplication1.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class AnimalsController : ControllerBase
+public class WarehouseController : ControllerBase
 {
     private IAnimalsService _animalsService;
 
-    public AnimalsController(IAnimalsService animalsService)
+    public WarehouseController(IAnimalsService animalsService)
     {
         _animalsService = animalsService;
     }
