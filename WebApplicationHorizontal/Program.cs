@@ -11,8 +11,8 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddControllers();
-        builder.Services.AddScoped<IAnimalsRepository, AnimalsRepository>();
-        builder.Services.AddScoped<IAnimalsService, AnimalsService>();
+        builder.Services.AddScoped<IProductsRepository, ProductsRepository>();
+        builder.Services.AddScoped<IProductsService, ProductsService>();
 
         var app = builder.Build();
         
